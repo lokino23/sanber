@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>Halaman Form</title>
+        <h1>Buat Account baru!</h1>
+    </head>
+    <body>
+         <!--ini adalah form Nama -->
+        <h3>Sign Up Form</h3>
+        <form action="signup.html">
+            <label for="nama1">First Name:</label><br><br>
+            <input type="text" id="nama1"><br><br>
+            <label for="nama2">Last Name:</label><br><br>
+            <input type="text" id="nama2"><br><br>
+
+           <!--ini adalah form Gender-->
+            <p>Gender:</p>
+            <input type="radio" id="male" name="Gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="Gender" value="female">
+            <label for="female">Female</label><br>
+            <input type="radio" id="other" name="Gender" value="other">
+            <label for="other">Other</label><br><br>
+
+            <!--ini adalah form nationality-->
+            <label for="nationality">Nationality:</label><br><br>
+                <select name="nationality" id="nationality">
+                    <option value="indonesian">Indonesian</option>
+                    <option value="Malaysian">Malaysian</option>
+                    <option value="Singaporean">Singaporean</option>
+                    <option value="Australian">Australian</option>
+                </select>
+                <br>
+            <!--ini adalah form Languange Spoken -->
+            <p>Languange Spoken:</p>
+            <input type="checkbox" id="bahasa indonesia" name="bahasa indonesia">
+            <label for="bahasa indonesia">Bahasa Indonesia</label><br>
+            <input type="checkbox" id="english" name="english">
+            <label for="english">English</label><br>
+            <input type="checkbox" name="other1" id="other1">
+            <label for='other1'>Other</label><br><br>
+
+            <!--ini adalah Text-area -->  
+            <label for="bio">Bio:</label><br>
+            <textarea id="bio" name="bio" rows="10" cols="35"></textarea><br>
+
+            <input type="submit" value="signup">
+
+
+
+        
+        </form>
+        
+    </body>
+    </html>
